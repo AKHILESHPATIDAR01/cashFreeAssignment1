@@ -1,0 +1,119 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  /* background-color: #918d8d; */
+  position: relative;
+}
+
+.cmt-box-input {
+  width: 20%;
+  height: 150px;
+  border: 1px solid salmon;
+  margin: 20px 0px;
+  background-color: #3c4748;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.cmt-box-input textarea {
+  padding: 10px;
+  width: 92%;
+  height: 65%;
+  /* height: 30px; */
+  resize: none;
+}
+
+.addComntBtn {
+  border: 1px solid salmon;
+}
+
+.display-cmt-box-outer {
+  width: 80%;
+  margin: 10px auto;
+  box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+.display-cmt-box {
+  width: 70%;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.main-cmnt {
+  background: #ececea;
+  padding: 20px;
+  border-radius: 0 20px 20px 20px;
+}
+
+.userDetails {
+  display: flex;
+}
+
+.userDetails h1 {
+  font-size: 14px;
+}
+
+.userDetails p {
+  margin-left: 20px;
+  font-size: 12px;
+}
+
+.cmnt-text {
+  font-size: 16px;
+}
+
+.display-cmt-box-outer-bottom {
+  display: flex;
+  margin-left: 20px;
+}
+
+.display-cmt-box-outer-bottom p {
+  font-size: 15px;
+}
+
+.display-cmt-box-outer-bottom p span {
+  margin-left: 5px;
+}
+
+.display-cmt-box-outer-bottom button {
+  border: none;
+  outline: none;
+  background: inherit;
+  margin-left: 10px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+}
+
+.display-cmt-reply-box-outer-bottom {
+  display: flex;
+  margin-left: 22%;
+}
+
+.display-cmt-reply-box-outer-bottom p {
+  font-size: 15px;
+}
+
+.display-cmt-reply-box-outer-bottom p span {
+  margin-left: 5px;
+}
+
+.display-cmt-reply-box-outer-bottom button {
+  border: none;
+  outline: none;
+  background: inherit;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.cmnt-reply-text {
+  width: 75%;
+  margin-left: 20%;
+  margin-top: 10px;
+  background: #ececea;
+  padding: 20px;
+  border-radius: 0 20px 20px 20px;
+  /* box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12) !important; */
+}
